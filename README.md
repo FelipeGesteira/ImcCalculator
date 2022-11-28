@@ -2,7 +2,7 @@
 
 Functional ImcCalculator, using js for: 
 
-Deleting patients on table
+Deleting patients on table (dblclick in patient)
 
 Searching patients on table
 
