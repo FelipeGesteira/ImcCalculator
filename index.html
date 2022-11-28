@@ -13,9 +13,11 @@
 		<header>
 			<div class="container">
 				<h1 class="titulo">Aparecida Nutrição</h1>
+		
 			</div>
 		</header>
 			<h1 class="titulo_meuspacientes">Meus pacientes</h1>
+			<input type="text" name="filtro" id="filtrar-tabela" placeholder="Digite o nome do paciente">
 			<main>
 			<section class="container2">
 				<table>
@@ -69,12 +71,15 @@
 						</tr>
 					</tbody>
 				</table>
-				<img src="/img/1268747583764tabela de IMC.jpg" class="imagem_imc">
+				<img src="./img/1268747583764tabela de IMC.jpg" class="imagem_imc">
 			</section>
 			</main>
 			<section class="container3">
+				<p class="paragrafo-form">Em caso de erro, de dois cliques em cima do paciente desejado para remoção do mesmo.</p>
 				<h2 id="titulo-form">Adicionar novo paciente</h2>
-				<span class="mensagem-erro"></span>
+				<ul id="mensagens-erro">
+				
+				</ul>
 				<form id="form-adiciona">
 					<div class="grupo">
 						<label for="nome">Nome:</label>
@@ -97,6 +102,8 @@
 				</form>
 			</section>
 			<script src="/js/calculaimcteste.js"> </script>
-<script src="/js/meuform.js"></script>
+			<script src="/js/meuform.js"></script>
+			<script src="/js/remover.js"></script>
+			<script src="/js/filtra.js"></script>
 	</body>
 </html>

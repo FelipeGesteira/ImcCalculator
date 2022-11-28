@@ -186,3 +186,34 @@ label {
 	color: black;
 	margin: 10px 0;
 }
+
+#mensagens-erro {
+    color: red;
+	font-size: 1rem;
+}
+
+.paragrafo-form {
+	margin: 25px 0;
+	color: red;
+	font-weight: 700;
+	font-size: 1rem;
+}
+
+.fadeOut {
+	opacity: 0;
+	transition: 0.5s;
+}
+
+
+
+#filtrar-tabela {
+	margin: 0 165px;
+	width: 200px;
+	height: 30px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.invisivel {
+	display: none;
+}
